@@ -1,0 +1,62 @@
+@charset "utf-8";
+
+/*共通設定*/
+
+img {
+  max-width: 100%;
+}
+.task1{
+  background-color: #FFEEF2;
+}
+.wrap {
+  overflow: hidden;
+  max-width: 599px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.footer {
+  background:#F9678A;
+  color: white;
+  text-align: center;
+  padding: 10px 5px;
+}
+
+.footer .copyright{
+  font-size: 5px;
+  margin-bottom: 10px;
+}
+.footer-links{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;/*スマホ対応で折り返し*/
+
+}
+.footer-links a{
+  color: white;
+  text-decoration: none;
+  font-size: 11px;
+  transition: opacity 0.3s ease;
+}
+
+.footer-links a:hover {
+  opacity: 0.7;
+}
+.footer > p{
+  font-size: 10px;
+  margin: 10px;
+}
+/*タブレット*/
+@media (max-width: 1024px) {
+  /*共通設定*/
+  /*終わり*/
+  
+  /*<header class="header">*/
+  /*終わり*/
+  }
+  /*スマホ*/
+  @media (max-width: 599px) {
+  /*共通設定*/
+  /*終わり*/
+  }
